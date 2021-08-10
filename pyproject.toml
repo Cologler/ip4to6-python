@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ip4to6"
-version = "0.1.0"
+version = "0.0.0"
 description = ""
 authors = [ "Cologler <skyoflw@gmail.com>" ]
 license = "MIT"
@@ -16,7 +16,7 @@ python = "^3.8"
 pytest = "^6.2.4"
 
 [tool.poetry-dynamic-versioning]
-enabled = true
+enable = true
 
 [build-system]
 requires = [ "poetry-core>=1.0.0", "poetry-dynamic-versioning" ]
