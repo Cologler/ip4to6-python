@@ -26,6 +26,9 @@ def main(argv=None):
     if argv is None:
         argv = sys.argv
 
+    if not len(argv) == 2:
+        raise SystemExit('usage: ip4to6.py {IP}')
+
     for key, value in ip4to6(argv[1]).items():
         print(f'{key}:\n   {value}')
 

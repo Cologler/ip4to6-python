@@ -6,11 +6,14 @@ authors = [ "Cologler <skyoflw@gmail.com>" ]
 license = "MIT"
 readme = "README.md"
 
-  [tool.poetry.dependencies]
-  python = "^3.8"
+[tool.poetry.scripts]
+ip4to6 = 'ip4to6:main'
 
-  [tool.poetry.dev-dependencies]
-  pytest = "^6.2.4"
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
 
 [tool.poetry-dynamic-versioning]
 enabled = true
