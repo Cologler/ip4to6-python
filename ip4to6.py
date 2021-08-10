@@ -34,3 +34,5 @@ def main(argv=None):
 
 if __name__ == '__main__':
     main()
+
+__all__ = ['ip4to6']
